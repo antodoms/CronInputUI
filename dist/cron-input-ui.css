@@ -1,0 +1,439 @@
+cron-input-ui * {
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+cron-input-ui .cronInput {
+    height: 34px;
+    position: relative;
+}
+
+cron-input-ui .cronInput input[type="text"] {
+    width: 98%;
+    box-shadow: none;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 1px #ccc solid;
+}
+
+cron-input-ui .cronInput button {
+    position: absolute;
+    right: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    z-index: 2;
+}
+
+cron-input-ui .cronInput input {
+    line-height: normal;
+}
+
+cron-input-ui * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+cron-input-ui button,
+cron-input-ui input,
+cron-input-ui select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+cron-input-ui label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+cron-input-ui input[type="checkbox"],
+cron-input-ui input[type="radio"] {
+    margin: 4px 0 0;
+    line-height: normal;
+}
+
+cron-input-ui input[type="checkbox"]:focus,
+cron-input-ui input[type="radio"]:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+cron-input-ui .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+cron-input-ui .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+cron-input-ui .form-group {
+    margin-bottom: 15px;
+}
+
+cron-input-ui .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 100%;
+}
+
+cron-input-ui .btn:focus,
+cron-input-ui .btn:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+cron-input-ui .btn:active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+cron-input-ui .btn-custom {
+    color: #fff;
+    border: 1px #ccc solid;
+}
+
+cron-input-ui .btn-custom:focus {
+    color: #fff;
+    border: 1px #ccc solid;
+    outline: 0;
+}
+
+cron-input-ui .btn-custom:hover {
+    color: #fff;
+}
+
+cron-input-ui .btn-custom:active {
+    color: #fff;
+    border: 1px #ccc solid;
+    outline: 0;
+}
+
+cron-input-ui .btn-custom:active:focus,
+cron-input-ui .btn-custom:active:hover {
+    color: #fff;
+    border-color: #ccc;
+}
+
+cron-input-ui .btn-custom:active {
+    background-image: none;
+}
+
+cron-input-ui .fade {
+    opacity: 0;
+    -webkit-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+}
+
+cron-input-ui .nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+cron-input-ui .nav > li {
+    position: relative;
+    display: block;
+}
+
+cron-input-ui .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+cron-input-ui .nav > li > a:focus,
+cron-input-ui .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+cron-input-ui .nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+
+cron-input-ui .nav-tabs > li {
+    float: left;
+    margin-bottom: -1px;
+}
+
+cron-input-ui .nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.4;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+
+cron-input-ui .nav-tabs > li.active > a,
+cron-input-ui .nav-tabs > li.active > a:focus,
+cron-input-ui .nav-tabs > li.active > a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+
+cron-input-ui .tab-content > .tab-pane {
+    display: none;
+}
+
+cron-input-ui .tab-content > .active {
+    display: block;
+}
+
+cron-input-ui .panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+cron-input-ui .panel-body {
+    padding: 15px;
+}
+
+cron-input-ui .panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+cron-input-ui .panel-default {
+    border-color: #ddd;
+}
+
+cron-input-ui .panel-default > .panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+
+cron-input-ui .close2 {
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+cron-input-ui .close2:focus,
+cron-input-ui .close2:hover {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+cron-input-ui .modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+cron-input-ui .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+
+cron-input-ui .modal-content {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+}
+
+cron-input-ui .modal-header {
+    padding: 15px;
+}
+
+cron-input-ui .modal-header .close2 {
+    margin-top: -2px;
+}
+
+cron-input-ui .modal-body {
+    position: relative;
+    top: -15px;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+cron-input-ui .modal-dialog {
+    width: 600px;
+    margin: 30px auto;
+}
+
+cron-input-ui .modal-header:after,
+cron-input-ui .modal-header:before,
+cron-input-ui .nav:after,
+cron-input-ui .nav:before,
+cron-input-ui .panel-body:after,
+cron-input-ui .panel-body:before {
+    display: table;
+    content: " ";
+}
+
+cron-input-ui .modal-header:after,
+cron-input-ui .nav:after,
+cron-input-ui .panel-body:after {
+    clear: both;
+}
+
+cron-input-ui .show {
+    display: block;
+}
+
+cron-input-ui .hidden {
+    display: none;
+}
+
+cron-input-ui input[type="radio"] {
+    position: relative;
+    top: -2.5px;
+}
+
+cron-input-ui input[type="radio"] {
+    appearance: none;
+    display: block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+}
+
+cron-input-ui input[type="radio"]:checked:after {
+    content: "";
+    visibility: visible;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    top: 1px !important;
+    left: 1px !important;
+}
+
+cron-input-ui input[type="checkbox"]:focus,
+cron-input-ui input[type="radio"]:focus,
+cron-input-ui .cronInsideInput:focus,
+cron-input-ui .btn-custom:active {
+    outline: none;
+}
+
+cron-input-ui span {
+    position: relative;
+    z-index: 2;
+}
+
+cron-input-ui .container {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+cron-input-ui .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+cron-input-ui .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 14.5px;
+    width: 14.5px;
+    background-color: #eee;
+}
+
+cron-input-ui .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+cron-input-ui .container .numberValue {
+    position: relative;
+    top: -2px;
+}
+
+cron-input-ui .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+cron-input-ui .container .checkmark:after {
+    left: 2px;
+    top: 6px;
+    width: 7px;
+    height: 0px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+

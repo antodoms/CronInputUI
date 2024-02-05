@@ -4,9 +4,6 @@ node_modules/
 .pnp.js
 
 # production
-dist/
-locales/
-
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

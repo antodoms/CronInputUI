@@ -2,15 +2,11 @@
   "name": "cron-input-ui",
   "version": "2.0.0",
   "description": "Input component to generate cron expressions easily and intuitively",
-  "main": "lib/cron-input-ui.min.js",
+  "main": "dist/cron-input-ui.min.js",
   "files": [
     "dist/*",
     "dist/locales/*"
   ],
-  "exports": {
-    ".": "./dist/",
-    "./locales": "./dist/locales/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/QuentiumYT/CronInputUI.git"
